@@ -1,0 +1,60 @@
+/*
+Problema de los 3 cuerpos (sol, tierra y luna)
+*/
+
+//--librerias------------------------
+# include <iostream>
+# include <cmath>
+# include <fstream>
+
+//--espacio de nombres---
+using namespace std;
+
+
+//--constantes------------------------
+const int N = 3;
+const double pi = acos(-1.0);
+
+//------------------------------------
+
+//--funciones-------------------------
+
+class cuerpo {
+        double masa;
+        double radio;
+        double velocidad;
+
+    public:
+        cuerpo (double M, double r[3], double v[3]) {
+            masa = M;
+            radio = r[3];
+            velocidad = v[3];
+            
+        }
+        ~cuerpo() {
+        }
+
+        double get_masa() {
+            return masa;
+        }
+
+        double get_radio() {
+            return radio;
+        }
+
+        double get_velocidad() {
+            return velocidad;
+        }
+
+    class GMs : public cuerpo {
+        double G;
+    }
+
+};
+
+
+//--funcion principal-----------------
+int main() {
+
+    return 0;
+}                        
