@@ -1,0 +1,22 @@
+//--librerias------------------------
+# include <iostream>
+# include <cmath>
+
+//--espacio de nombres---
+using namespace std;
+
+
+//--constantes------------------------
+const double pi = acos(-1.0);
+
+//------------------------------------
+
+//--funciones-------------------------
+
+
+
+//--funcion principal-----------------
+int main() {
+
+    return 0;
+}                        
